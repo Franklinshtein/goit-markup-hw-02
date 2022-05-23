@@ -52,6 +52,7 @@ header {
 }
 
 .logo {
+    margin-left: 215px;
     color: var(--accent-color);
     font-family: 'Raleway';
     font-weight: 700;
@@ -61,7 +62,6 @@ header {
 }
 
 header .logo {
-    margin-left: 215px;
     margin-top: 24px;
     position: absolute;
 
@@ -77,7 +77,6 @@ header .logo {
 
 .main-nav {
     margin-left: 453px;
-
 }
 
 .main-nav li {
@@ -86,8 +85,13 @@ header .logo {
 
 }
 
-.contacts {
+.contacts{
+    display: inline-flex;
+    margin-right: 50px;
     color: var(--text-color-gray);
+    position:absolute;
+    margin-top: -52px;
+    margin-left: 1078px;
 
 }
 
@@ -195,7 +199,7 @@ footer {
     line-height: 1.71;
     color: var(--text-color-gray);
     position: absolute;
-    width: 1200px;
+    width: 1600px;
     height: 252px;
     background-color: #2f303a;
 
@@ -203,7 +207,6 @@ footer {
 
 footer>.logo {
     position: absolute;
-    margin-left: 215px;
     margin-top: 60px;
 
 }
