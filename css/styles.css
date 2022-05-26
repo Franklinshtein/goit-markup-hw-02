@@ -102,6 +102,7 @@ a:focus {
   background:var(--button-background);
   border-radius: 4px;
   text-align: center;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
